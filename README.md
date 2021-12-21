@@ -1,12 +1,12 @@
 # rock-paper-scissors-game-using-HTML-CSS-and-JavaScript-Guided-By-Subrat-Sir
 This is game is developed by Me, using HTML CSS and JavaScript Guided By Subrat Sir. This game is for complete beginners.
 
+Readme file changed.
+
 ## Technologies Used
 - HTML
 - CSS
 - JavaScript
-
-
 
 ## Guided By :
 - [Subrat Sir](https://github.com/subratsir)
