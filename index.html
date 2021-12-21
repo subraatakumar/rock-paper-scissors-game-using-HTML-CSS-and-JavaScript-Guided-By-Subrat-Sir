@@ -5,8 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
-    
+    <div class="mainContainer">
+        <header>
+            <h1>Rock Paper Scissors Game</h1>
+        </header>
+        <main>
+            <section class="section1">
+                <h2 id="gameMsg">Choose Your Weapon</h2>
+                <p id="gameMsg1">First Score 5 Will win the game</p>
+            </section>
+            <section class="section2">
+                <div>
+                    <div id="userSelected">?</div>
+                    <div id="userScore">User : 0</div>
+                </div>
+                <div>
+                    <div id="computerSelected">?</div>
+                    <div id="computerScore">Computer : 0</div>
+                </div>
+            </section>
+            <section class="images">
+                <div class="img" id="rock">✊</div>
+                <div class="img" id="paper">✋</div>
+                <div class="img" id="scissors">✌</div>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> 
+                Subrat Sir</p>
+        </footer>
+    </div>
+    <div class="popUpContainer inActive">
+        <div class="popUpDiv">
+            <p class="popUpTitle">
+                Title
+            </p>
+            <button class="popUpButton">Restart</button>
+        </div>
+    </div>
 </body>
 </html>
