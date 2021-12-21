@@ -6,6 +6,8 @@ This is game is developed by Me, using HTML CSS and JavaScript Guided By Subrat 
 - CSS
 - JavaScript
 
+
+
 ## Guided By :
 - [Subrat Sir](https://github.com/subratsir)
 
